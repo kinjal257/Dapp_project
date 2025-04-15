@@ -1,0 +1,99 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}body{
+    background-image: url("https://images.unsplash.com/photo-1603484477859-abe6a73f9366?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 80vh;
+}
+
+#heading{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color:rgb(5, 6, 4);
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 2.5%;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#input{
+    display: flex;
+    margin-left: 21%;
+}
+#input h1,#inputfield,#button1{
+    margin: 35px;
+    color:rgb(133, 3, 162);
+    font-size: 31px;
+}
+
+#inputfield,#button1{
+    color: black;
+    border: solid black 4px;
+}
+#inputfield{
+    margin-top: 33px;
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    padding: 15px;
+}
+#button1{
+    background-color: gold;
+    margin-top: 33px;
+    height:40px;
+    width:10%;
+    font-size: 20px;
+    cursor: pointer;
+}
+#button1:hover{
+    background: rgb(216, 160, 18)
+}
+#todolist{
+    color:rgb(133, 3, 162);
+    margin-left:22.5%;
+    margin-top: 22px;
+    font-size: 18px;
+}
+#todolist ul{
+    width: 40%;
+     margin:30px;
+     font-size: 20px;
+}
+#todolist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 25px ;
+}
+
+#todolist li {
+    background: #f4f4f4;
+    color: #333;
+    width: 50%;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px #0d0909; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   font-size: 25px;
+   border: black 3px solid;
+}
+
+#todolist li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 72px;
+    height: 30px;
+}
+
+#todolist li button:hover {
+    background: darkred;
+}
